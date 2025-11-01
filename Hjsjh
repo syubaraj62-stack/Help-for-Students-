@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help for Students</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Help for Students</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <p>
+                Help for Students is a platform designed for students who want to learn and teach each other. 
+                Connect, collaborate, and grow together!
+            </p>
+        </section>
+        <section id="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Find study partners</li>
+                <li>Share and access learning resources</li>
+                <li>Ask questions & get answers</li>
+                <li>Participate in group discussions</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>
+                Want to join or have questions? Email us at <a href="mailto:helpforstudents@example.com">helpforstudents@example.com</a>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Help for Students</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
