@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Help for Students</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Help for Students</h1>
+        <nav>
+            <ul>
+                <li><a href="#learn">Learn</a></li>
+                <li><a href="#teach">Teach</a></li>
+                <li><a href="#community">Community</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>Welcome to Help for Students</h2>
+        <p>A platform where students help each other learn and grow!</p>
+        <a href="#learn" class="cta-button">Start Learning</a>
+    </section>
+    <section id="learn">
+        <h3>Learn</h3>
+        <p>Access resources, tutorials, and peer support to boost your studies.</p>
+    </section>
+    <section id="teach">
+        <h3>Teach</h3>
+        <p>Share your knowledge, tutor others, and make a difference in the student community.</p>
+    </section>
+    <section id="community">
+        <h3>Community</h3>
+        <p>Join discussions, ask questions, and connect with students worldwide.</p>
+    </section>
+    <section id="contact">
+        <h3>Contact Us</h3>
+        <form>
+            <label for="name">Name:</label>
+            <input id="name" name="name" type="text" required>
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 Help for Students. All rights reserved.</p>
+    </footer>
+</body>
+</html>
